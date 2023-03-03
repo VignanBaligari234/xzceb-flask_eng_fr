@@ -9,6 +9,7 @@ let translateToFrench = ()=>{
     };
     xhttp.open("GET", "englishToFrench?textToTranslate"+"="+textToTranslate, true);
     xhttp.send();
+    
 }
 
 let translateToEnglish = ()=>{
